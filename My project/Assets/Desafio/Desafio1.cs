@@ -16,8 +16,8 @@ public class Desafio1 : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            jogadorA = Random.Range(0, 7);
-            jogadorB = Random.Range(0, 7);
+            jogadorA = Random.Range(1, 7);
+            jogadorB = Random.Range(1, 7);
 
             print("dado de jogador A: " + jogadorA);
             print("dado do jogador B:" + jogadorB);
