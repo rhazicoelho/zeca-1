@@ -11,7 +11,7 @@ public class Desafio_supertrunfo : MonoBehaviour
    
     int pontosjg1 = 0;
     int pontosjg2 = 0;
-    [SerializeField] bool jogando;
+    bool jogando = true;
 
     void Start()
     {
