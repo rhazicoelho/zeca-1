@@ -19,12 +19,13 @@ public class Exlistalivre_4 : MonoBehaviour
             {
                 dano = Random.Range(5, 21);
                 vida = vida - dano;
+                print("jogador levou: " + dano + " jogador tem: " + vida + " restante");
                 if (vida<=0)
                 {
                     print("jogador morreu com: " + vida + "de vida");
                     vida = 100;
                     jogando = false;
-
+                    break;
                 }
             }
 
